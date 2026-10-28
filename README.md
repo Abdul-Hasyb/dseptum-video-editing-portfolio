@@ -2,7 +2,7 @@
 
 Portfolio site for **D.Septum** (Abdul Haseeb): YouTube, Shorts, Instagram Reels and anime edits.
 
-**Live:** https://abdul-hasyb.github.io/dseptum-video-editing-portfolio/
+**Live:** https://dseptum.netlify.app/
 
 ## Add or change videos
 
