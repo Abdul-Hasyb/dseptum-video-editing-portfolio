@@ -57,7 +57,7 @@ window.VIDEOS = [
     format: 'reel'
   },
   {
-    title: 'One Piece edit',
+    title: 'One Piece Sample 1',
     client: '',
     note: 'Anime sample · 1:30',
     tag: 'ANIME SAMPLE',
@@ -73,7 +73,7 @@ window.VIDEOS = [
     format: 'long'
   },
   {
-    title: 'Kinetic text sample',
+    title: 'One piece Sample 2',
     client: '',
     note: 'Motion text sample',
     tag: 'SAMPLE',
