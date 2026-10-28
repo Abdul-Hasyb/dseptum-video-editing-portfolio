@@ -73,9 +73,9 @@ window.VIDEOS = [
     format: 'long'
   },
   {
-    title: 'One piece Sample 2',
+    title: 'One Piece Sample 2',
     client: '',
-    note: 'Motion text sample',
+    note: 'Anime sample',
     tag: 'SAMPLE',
     link: 'https://drive.google.com/file/d/1CRDgG3D93sXcjBq_d2k9Pd3uUfY33vov/view?usp=sharing',
     format: 'long'

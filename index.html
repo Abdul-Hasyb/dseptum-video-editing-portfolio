@@ -66,7 +66,8 @@ main,header,footer{position:relative;z-index:1}
 .hero-copy{flex:1 1 520px;min-width:0;position:relative;z-index:2;display:flex;flex-direction:column;justify-content:center;gap:28px}
 .badge{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;padding:8px 14px 8px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);font-size:13px;font-weight:600;color:#D5D9E2;text-decoration:none}
 .pdot{position:relative;width:8px;height:8px}.pdot i{position:absolute;inset:0;border-radius:50%;background:var(--a)}
-h1{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(64px,10.5vw,156px);line-height:.86;letter-spacing:-.05em}
+.hero-copy{container-type:inline-size}
+h1{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(40px,10.5vw,156px);font-size:min(156px,18cqw);line-height:.86;letter-spacing:-.05em}
 .mask{display:block;overflow:hidden;padding-bottom:.05em}
 .rise{display:inline-block}
 .outline{color:transparent;-webkit-text-stroke:2px var(--fg)}
@@ -260,6 +261,7 @@ footer a{color:#D5D9E2;text-decoration:none;min-height:44px;display:inline-flex;
 .blink{animation:blink 1.2s steps(1) infinite}
 .pulse{animation:pulse 2.2s ease-out infinite}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none !important;transition:none !important}html{scroll-behavior:auto}}
+@media (max-width:520px){.nav{width:100%;justify-content:space-between}.nav a{padding:8px 11px;font-size:13px}}
 @media (max-width:720px){.orbit{transform:scale(.62)}.visual{height:420px}.hide-sm{display:none !important}.outline{-webkit-text-stroke:1.5px var(--fg)}section{padding-block:72px 16px}.card{padding:24px}}
 </style>
 </head>
